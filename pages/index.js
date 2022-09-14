@@ -28,7 +28,6 @@ export async function getServerSideProps({ req }) {
   } catch (e) {
     console.log({ e })
   }
-}
 
   return {
     props: {
