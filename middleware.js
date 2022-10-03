@@ -11,5 +11,5 @@ export function middleware(request) {
 }
 
 export const config = {
-  matcher: ['/isr/:path*', '/home/:path*'],
+  matcher: ['/test-isr-redirect/:path*', '/take-me-home/:path*'],
 }
